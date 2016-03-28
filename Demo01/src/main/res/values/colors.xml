@@ -8,4 +8,6 @@
     <color name="colorLurquoise">#98FB98</color>
     <color name="colorYellow">#FFFF00</color>
     <color name="colorFuchsia">#FF00FF</color>
+    <color name="colorPink">#FF7878</color>
+    <color name="colorOrange">#FF7428</color>
 </resources>

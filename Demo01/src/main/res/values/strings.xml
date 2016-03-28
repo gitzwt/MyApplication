@@ -3,4 +3,12 @@
     <string name="one">one</string>
     <string name="two">two</string>
     <string name="three">three</string>
+    <string name="btn1">按钮1</string>
+    <string name="btn2">按钮2</string>
+    <string name="btn3">按钮3</string>
+    <string name="inputPhoneNumber">请输入要保存的电话号码</string>
+    <string name="save">保存</string>
+    <string name="clear">清空</string>
+    <string name="xixi">(*^__^*) 嘻嘻……</string>
+    <string name="haha">O(∩_∩)O哈哈~</string>
 </resources>
