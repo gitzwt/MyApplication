@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/RelativeLayout1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,8 +11,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zwt.myapplication.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <!--这个在容器的中央-->
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/th_xplane"/>
+
+    <!--在中间图片的左边-->
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/img1"
+        android:src="@drawable/th_xplane_blue"/>
+
+    <!--在中间的右边-->
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img1"
+        android:src="@drawable/th_xplane_green"/>
+
+    <!--在中间图片的上面-->
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/th_xplane_purple"/>
+
+    <!--在中间图片的下面-->
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/th_xplane_red"/>
+
 </RelativeLayout>
