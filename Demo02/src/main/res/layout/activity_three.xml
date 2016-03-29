@@ -10,7 +10,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/th_Net"/>
+        android:background="@drawable/th_net"/>
 
     <ImageView
         android:id="@+id/imgCancle"
@@ -20,6 +20,6 @@
         android:layout_alignTop="@id/imgBack"
         android:layout_marginRight="-10dp"
         android:layout_marginTop="-15dp"
-        android:background="@drawable/th_Hanoi3"/>
+        android:background="@drawable/th_hanoi3"/>
 
 </RelativeLayout>
