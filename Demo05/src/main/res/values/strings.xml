@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="exit">回退</string>
+    <string name="clear">清空</string>
+</resources>
