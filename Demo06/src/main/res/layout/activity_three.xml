@@ -8,11 +8,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:autoLink="all"
         android:drawableBottom="@drawable/th_wifitoggle"
         android:drawableLeft="@drawable/th_wifitoggle"
         android:drawablePadding="10dp"
         android:drawableRight="@drawable/th_wifitoggle"
         android:drawableTop="@drawable/th_wifitoggle"
-        android:text="Zwt"/>
+        android:text="https://www.baidu.com"/>
 
 </RelativeLayout>
