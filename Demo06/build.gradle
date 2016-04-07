@@ -16,18 +16,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        alpha {
-            debuggable false
-            jniDebuggable false
-            renderscriptDebuggable false
-            minifyEnabled false
-            zipAlignEnabled true
-        }
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
 }
