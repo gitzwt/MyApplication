@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\Android\android-studio 2.1\gradle\gradle-2.10" />
+        <option name="gradleHome" value="D:\Android\android-studio\gradle\gradle-2.10" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
@@ -25,24 +25,7 @@
             <option value="$PROJECT_DIR$/Demo07_4" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Demo01" />
-            <option value="$PROJECT_DIR$/Demo02" />
-            <option value="$PROJECT_DIR$/Demo03" />
-            <option value="$PROJECT_DIR$/Demo04" />
-            <option value="$PROJECT_DIR$/Demo04_1" />
-            <option value="$PROJECT_DIR$/Demo04_2" />
-            <option value="$PROJECT_DIR$/Demo05" />
-            <option value="$PROJECT_DIR$/Demo06" />
-            <option value="$PROJECT_DIR$/Demo07" />
-            <option value="$PROJECT_DIR$/Demo07_1" />
-            <option value="$PROJECT_DIR$/Demo07_2" />
-            <option value="$PROJECT_DIR$/Demo07_3" />
-            <option value="$PROJECT_DIR$/Demo07_4" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
